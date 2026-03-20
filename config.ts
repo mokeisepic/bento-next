@@ -11,12 +11,12 @@ import { Config } from './src/types/config';
 // Use an editor with Typescript support to get autocomplete and validity checking!
 export const config: Config = {
   // General
-  name: 'John',
+  name: 'Ekom',
   openInNewTab: true,
-  title: 'Bento',
+  title: 'Home',
 
   // Clock
-  twelveHourFormat: false,
+  twelveHourFormat: true,
   flashSeparator: false,
 
   // Font Family
@@ -28,7 +28,7 @@ export const config: Config = {
   },
 
   // Theme
-  theme: 'bento',
+  theme: 'catppuccin-macchiato',
 
   // Place a background image in ./src/assets/images/ and provide the file name.
   // If running in docker, ensure that you have a bind mount for `./src/assets/images:/src/src/assets/images`
