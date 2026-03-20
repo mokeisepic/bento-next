@@ -196,7 +196,7 @@ export const config: Config = {
         ],
       },
       {
-        icon: 'coffee',
+        icon: 'list',
         links: [
           {
             name: 'Linkedin',
