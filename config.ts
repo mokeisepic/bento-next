@@ -128,9 +128,9 @@ export const config: Config = {
         url: 'https://www.q.wa-k12.net/kentSTS/Session/Signin/',
       },
       {
-        name: 'ChatGPT',
-        icon: 'fab-openai',
-        url: 'https://chatgpt.com/',
+        name: 'Outlook',
+        icon: 'envelope',
+        url: 'https://outlook.cloud.microsoft/mail/',
       },
     ],
     // Second buttons group
