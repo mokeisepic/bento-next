@@ -11,7 +11,7 @@ import { Config } from './src/types/config';
 // Use an editor with Typescript support to get autocomplete and validity checking!
 export const config: Config = {
   // General
-  name: 'Ekom',
+  name: 'ekom',
   openInNewTab: true,
   title: 'Home',
 
@@ -56,10 +56,10 @@ export const config: Config = {
   autoFocusBar: true,
 
   // Greetings
-  greetingMorning: 'Good morning,',
-  greetingAfternoon: 'Good afternoon,',
-  greetingEvening: 'Good evening,',
-  greetingNight: 'Sweet dreams,',
+  greetingMorning: 'good morning,',
+  greetingAfternoon: 'good afternoon,',
+  greetingEvening: 'good evening,',
+  greetingNight: 'good night,',
 
   // Layout
   layout: 'bento', // 'bento', 'lists', 'buttons'
@@ -103,34 +103,34 @@ export const config: Config = {
     // If you're using the 'bento' layout, this is the only group that will be used.
     [
       {
-        name: 'Github', // set the name of the card
-        icon: 'fab-github', // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
-        url: 'https://github.com/', // provide a link to the page.
+        name: 'Youtube', // set the name of the card
+        icon: 'fab-youtube', // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
+        url: 'https://youtube.com/', // provide a link to the page.
       },
       {
-        name: 'Mail',
-        icon: 'envelope',
-        url: 'https://mail.protonmail.com/',
+        name: 'Discord',
+        icon: 'fab-discord',
+        url: 'https://discord.com/app/',
       },
       {
-        name: 'Todoist',
-        icon: 'list-ol',
-        url: 'https://todoist.com',
+        name: 'Math Class',
+        icon: 'video',
+        url: 'https://meet.google.com/iux-edhu-vuz/',
       },
       {
-        name: 'Calendar',
-        icon: 'calendar',
-        url: 'https://calendar.google.com/calendar/r',
+        name: 'Canvas',
+        icon: 'asterisk',
+        url: 'https://kentk12.instructure.com/',
       },
       {
-        name: 'Reddit',
-        icon: 'fab-reddit',
-        url: 'https://reddit.com',
+        name: 'Skyward',
+        icon: 'school',
+        url: 'https://www.q.wa-k12.net/kentSTS/Session/Signin/',
       },
       {
-        name: 'Odysee',
-        icon: 'fab-youtube',
-        url: 'https://odysee.com/',
+        name: 'Claude',
+        icon: 'fab-claude',
+        url: 'https://claude.ai/',
       },
     ],
     // Second buttons group
